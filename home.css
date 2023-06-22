@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: grey;
+  height: 8vh;
+
+}
+
+.text-header {
+  margin-left: 40px;
+  margin-right: 40px;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 24px;
+}
+
+.logo-marca-fortes {
+  width: 13%;
+  margin-top: 15px;
+}
+
+.foto-capa {
+
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.welcome {
+  font-size: 60px;
+  position: absolute;
+  color: #3065ac;
+  text-align: left;
+  left: 200px;
+  top: 280px;
+  width: 250px;
+  line-height: 80px;
+  height: 30px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
